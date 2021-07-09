@@ -42,8 +42,12 @@ console.log(test);
 // It should create a header using the Header component above, passing arguments of your choosing.
 // It should append the header to the element in the DOM that matches the given selector.
 //
-const headerAppender = (selector) => {};
+const headerAppender = (selector) => {
+  const elem = document.querySelector(selector);
+  console.log("selector => ", selector);
+  console.log("elem => ", elem);
 
-console.log(document.querySelector("body"));
+  elem.appendChild(Header("test title", "20XX", "2000"));
+};
 
 export { Header, headerAppender };
