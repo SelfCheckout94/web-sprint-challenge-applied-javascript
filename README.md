@@ -40,7 +40,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 - [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
 - [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -53,19 +53,28 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes.
-- [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
-- [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes.
+- [x] Create a pull request to merge `<firstName-lastName>` branch into `main`.
+- [x] Please don't merge your own pull request and make sure **you are on your own repo**.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+   -The DOM is the Document Object Model and it's how the browser stores different parts of the webpage, kind of in like a tree
+
 2. What is an event?
+   -an event is some kind of action execution inside of code such as click or keydown
+
 3. What is an event listener?
+   -an event listener is something that fires when an event has been executed
+
 4. Why would we convert a NodeList into an Array?
+   -in order to use array methods on them to loop through and manipulate the information inside
+
 5. What is a component?
+   -A component is DRY code that make the indidual parts of the webpage

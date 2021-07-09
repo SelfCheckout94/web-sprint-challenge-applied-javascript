@@ -37,6 +37,7 @@ const Tabs = (arr) => {
 
   return topics;
 };
+
 const tabsAppender = (selector) => {
   const elem = document.querySelector(selector);
   axios
